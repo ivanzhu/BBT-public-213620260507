@@ -84,7 +84,7 @@ pnpm dev
 启动后访问终端显示的本地地址（通常为 http://localhost:5173）。
 
 #### 方式二：Docker 运行
-在项目根目录执行构建和启动命令：
+在任务目录执行构建和启动命令：
 ```bash
 docker build -t bbt-public-213620260507 .
 docker run --rm -p 3000:3000 bbt-public-213620260507
